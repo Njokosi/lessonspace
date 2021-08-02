@@ -1,14 +1,12 @@
 import React from "react";
 import { Navbar } from "../components";
 
-const BaseLayout = (props) => {
+const BaseLayout = ({ children }) => {
   return (
     <>
       <Navbar />
       <main className="w-full mx-auto max-w-8xl">
-        <div className="lg:flex">
-          <MainContent children={props.children} />
-        </div>
+        <div className="lg:flex">{children}</div>
       </main>
     </>
   );
