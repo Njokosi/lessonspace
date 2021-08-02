@@ -3,7 +3,7 @@ import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 
-const navigation = ["Dashboard", "Team", "Projects", "Calendar", "Reports"];
+const navigation = ["Developers", "Support"];
 const profile = ["Your Profile", "Settings", "Sign out"];
 
 function classNames(...classes) {
@@ -13,17 +13,17 @@ function classNames(...classes) {
 export default function Navbar() {
   return (
     <div>
-      <Disclosure as="nav" className="bg-gray-800">
+      <Disclosure as="nav" className="bg-white border-b border-gray-200 shadow">
         {({ open }) => (
           <>
-            <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div className="px-4 mx-auto max-w-8xl sm:px-6 lg:px-8">
               <div className="flex items-center justify-between h-16">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
                     <img
-                      className="w-8 h-8"
-                      src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-                      alt="Workflow"
+                      className="h-8"
+                      src="/images/lessonspacelogo.svg"
+                      alt="Lessonspace"
                     />
                   </div>
                   <div className="hidden md:block">
@@ -54,10 +54,6 @@ export default function Navbar() {
                 </div>
                 <div className="hidden md:block">
                   <div className="flex items-center ml-4 md:ml-6">
-                    <button className="p-1 text-gray-400 bg-gray-800 rounded-full hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
-                      <span className="sr-only">View notifications</span>
-                      <BellIcon className="w-6 h-6" aria-hidden="true" />
-                    </button>
 
                     {/* Profile dropdown */}
                     <Menu as="div" className="relative ml-3">
@@ -164,10 +160,6 @@ export default function Navbar() {
                       tom@example.com
                     </div>
                   </div>
-                  <button className="flex-shrink-0 p-1 ml-auto text-gray-400 bg-gray-800 rounded-full hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
-                    <span className="sr-only">View notifications</span>
-                    <BellIcon className="w-6 h-6" aria-hidden="true" />
-                  </button>
                 </div>
                 <div className="px-2 mt-3 space-y-1">
                   {profile.map((item) => (
@@ -185,21 +177,6 @@ export default function Navbar() {
           </>
         )}
       </Disclosure>
-
-      <header className="bg-white shadow">
-        <div className="px-4 py-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
-        </div>
-      </header>
-      <main>
-        <div className="py-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          {/* Replace with your content */}
-          <div className="px-4 py-6 sm:px-0">
-            <div className="border-4 border-gray-200 border-dashed rounded-lg h-96" />
-          </div>
-          {/* /End replace */}
-        </div>
-      </main>
     </div>
   );
 }
