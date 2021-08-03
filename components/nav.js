@@ -74,7 +74,7 @@ export default function Nav() {
           <li>
             <a
               href="/"
-              className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 bg-indigo-600 rounded shadow-md hover:bg-indigo-700 focus:shadow-outline focus:outline-none"
+              className="inline-flex items-center justify-center h-10 px-6 font-medium tracking-wide text-white transition duration-200 shadow-md from-blue-400 to-indigo-700 bg-gradient-to-br rounded-2xl focus:shadow-outline focus:outline-none"
               aria-label="Sign up"
               title="Sign up"
             >
@@ -86,7 +86,7 @@ export default function Nav() {
           <button
             aria-label="Open Menu"
             title="Open Menu"
-            className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
+            className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-indigo-50 focus:bg-indigo-50"
             onClick={() => setIsMenuOpen(true)}
           >
             <svg className="w-5 text-gray-600" viewBox="0 0 24 24">
@@ -196,7 +196,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/"
-                        className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 bg-indigo-400 rounded shadow-md hover:bg-indigo-700 focus:shadow-outline focus:outline-none"
+                        className="inline-flex items-center justify-center w-full h-10 px-6 font-medium tracking-wide text-white transition duration-200 shadow-md rounded-xl bg-gradient-to-br from-blue-400 to-indigo-600 focus:shadow-outline focus:outline-none"
                         aria-label="Sign up"
                         title="Sign up"
                       >
