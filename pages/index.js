@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Customers, Features, Hero, Pricing, Statistics, TopFeatures } from "../components";
+import { Customers, Features, Hero, Intro, Pricing, Statistics, TopFeatures } from "../components";
 import { BaseLayout } from "../layouts";
 
 export default function Home() {
@@ -15,6 +15,7 @@ export default function Home() {
         <div className="px-4 mx-auto my-12 lg:my-28 max-w-8xl sm:px-6 lg:px-8">
           <div className="w-full">
             <Hero />
+            <Intro />
           </div>
         </div>
         <div className="px-4 mx-auto my-12 lg:my-28 max-w-8xl sm:px-6 lg:px-8">

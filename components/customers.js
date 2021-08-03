@@ -36,6 +36,8 @@ const CustomerCard = ({ img, title }) => {
   );
 };
 
+
+
 export default function Customers() {
   return (
     <div className="grid grid-cols-12 gap-4">
@@ -52,3 +54,5 @@ export default function Customers() {
     </div>
   );
 }
+
+
