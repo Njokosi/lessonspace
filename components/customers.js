@@ -9,7 +9,7 @@ const Card = ({ img, title }) => {
       //   style={{ width: "235px" }}
     >
       <a
-        className="flex flex-col justify-between w-full h-full px-4 py-1 mx-5 bg-white border-none card"
+        className="flex flex-col justify-between w-full h-full px-4 py-1 mx-5 bg-white border-none"
         href="https://laracasts.com/topics/laravel"
         style={{ height: "84px", minWidth: "205px" }}
       >
