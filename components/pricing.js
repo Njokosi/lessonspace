@@ -3,9 +3,9 @@ import React from "react";
 const Pricing = () => {
   return (
     <div className="mx-auto">
-      <h2 class="text-center mb-24 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-        <span class="relative inline-block">
-          <span class="relative">Pricing</span>
+      <h2 className="mb-24 font-sans text-3xl font-bold leading-none tracking-tight text-center text-gray-900 sm:text-4xl md:mx-auto">
+        <span className="relative inline-block">
+          <span className="relative">Pricing</span>
         </span>
       </h2>
       <div className="relative px-4 pb-10 mt-3 bg-white border-t shadow border-gray-50 border-opacity-10 sm:px-6 lg:px-0 rounded-2xl">
