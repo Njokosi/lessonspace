@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "../components";
+import Footer from "../components/footer";
 
 const BaseLayout = ({ children }) => {
   return (
@@ -14,6 +15,7 @@ const BaseLayout = ({ children }) => {
       <main>
         <div className="w-full">{children}</div>
       </main>
+      <Footer />
     </div>
   );
 };
