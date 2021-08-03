@@ -110,12 +110,12 @@ export default function Nav() {
                 <div className="flex items-center justify-between mb-4">
                   <div>
                     <a
-                      class="inline-flex items-center"
+                      className="inline-flex items-center"
                       aria-label="Lessonspace"
                       title="Lessonspace"
                     >
                       <img
-                        class="h-8"
+                        className="h-8"
                         src="/images/lessonspacelogo.svg"
                         alt="Lessonspace"
                       />
