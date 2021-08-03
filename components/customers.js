@@ -1,11 +1,8 @@
 import React from "react";
+import { customers } from "../constants/customers";
 // background-image: radial-gradient(circle at 51% 111%,#1285f3,#003a99 86%);
 
-
-
-
-
-const Card = () => {
+const Card = ({ img, title }) => {
   return (
     <div
       className="flex justify-center w-full mb-6 text-center bg-white border-t shadow border-gray-50 border-opacity-10 rounded-2xl lg:relative"
@@ -22,7 +19,7 @@ const Card = () => {
               data-src="/images/customers/tutorfly.png"
               alt="laravel-logo.svg topic icon"
               className=" ls-is-cached lazyloaded"
-              src="/images/customers/tutorfly.png"
+              src={img}
             />
           </div>
         </div>
@@ -36,7 +33,9 @@ export default function Customers() {
     <div className="grid grid-cols-12 gap-4">
       <div className="col-span-2">
         <div className="left-0 py-6">
-          <Card />
+          {customers.map((c) => {
+            return <Card key={c.title} img={c.img} title={c.title} />;
+          })}
         </div>
       </div>
     </div>
