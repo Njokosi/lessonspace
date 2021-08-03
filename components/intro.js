@@ -5,8 +5,8 @@ const Intro = () => {
     <div class="relative py-3 w-full">
       <div class="absolute inset-0 bg-gradient-to-r from-blue-400 to-indigo-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-1 sm:rounded-3xl"></div>
       <div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
-        <div class="w-full flex items-center justify-between">
-          <div className="max-w-sm">
+        <div class="w-full lg:flex items-center justify-between">
+          <div className="w-full mb-12 lg:max-w-sm lg:mb-0">
             <div style={{ transformOrigin: "50% 50% 0px" }}>
               <p className="mb-4 text-base font-medium text-gray-800">
                 “Lessonspace is great for a wide variety of subjects! It is as
