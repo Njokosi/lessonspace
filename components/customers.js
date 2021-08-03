@@ -16,7 +16,7 @@ const Card = ({ img, title }) => {
         <div className="flex items-center justify-center flex-1">
           <div className="flex justify-center">
             <img
-              data-src="/images/customers/tutorfly.png"
+              dataSrc="/images/customers/tutorfly.png"
               alt="laravel-logo.svg topic icon"
               className="object-contain object-center ls-is-cached lazyloaded"
               src={img}
@@ -30,8 +30,8 @@ const Card = ({ img, title }) => {
 
 const CustomerCard = ({ img, title }) => {
   return (
-    <div class="flex shadow border-gray-50 border-opacity-10 rounded-2xl justify-center h-24 col-span-1 p-6 bg-white">
-      <img src={img} class="object-contain" />
+    <div className="flex justify-center h-24 col-span-1 p-6 bg-white shadow border-gray-50 border-opacity-10 rounded-2xl">
+      <img src={img} className="object-contain" />
     </div>
   );
 };
@@ -41,9 +41,9 @@ export default function Customers() {
     <div className="grid grid-cols-12 gap-4">
       {customers.map((c) => {
         return (
-          <div className="col-span-2">
+          <div key={c.title} className="col-span-2">
             <div className="left-0">
-              <CustomerCard key={c.title} img={c.img} title={c.title} />
+              <CustomerCard img={c.img} title={c.title} />
               {/* <Card key={c.title} img={c.img} title={c.title} /> */}
             </div>
           </div>

@@ -19,7 +19,7 @@ const TopFeatures = () => {
       </div>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-5">
         <div className="grid gap-6 md:grid-cols-2 md:col-span-2 lg:col-span-3">
-          <div className="rounded-lg bg-green-50 lg:p-5 lg:transition lg:duration-300 lg:hover:bg-blue-50">
+          <div className="rounded-lg lg:p-5 lg:transition lg:duration-300 lg:hover:bg-blue-50">
             <div className="flex items-center mb-1">
               <p className="text-lg font-semibold sm:text-base">
                 Tons of Tools
@@ -31,7 +31,7 @@ const TopFeatures = () => {
               Lessonspace has a tool for you!
             </p>
           </div>
-          <div className="rounded-lg bg-pink-50 lg:p-5 lg:transition lg:duration-300 lg:hover:bg-blue-50">
+          <div className="rounded-lg lg:p-5 lg:transition lg:duration-300 lg:hover:bg-blue-50">
             <div className="flex items-center mb-1">
               <p className="text-lg font-semibold sm:text-base">
                 One-Click-Connect
@@ -43,7 +43,7 @@ const TopFeatures = () => {
               started.
             </p>
           </div>
-          <div className="rounded-lg bg-yellow-50 lg:p-5 lg:transition lg:duration-300 lg:hover:bg-blue-50">
+          <div className="rounded-lg lg:p-5 lg:transition lg:duration-300 lg:hover:bg-blue-50">
             <div className="flex items-center mb-1">
               <p className="text-lg font-semibold sm:text-base">
                 Advanced Troubleshooting
@@ -55,7 +55,7 @@ const TopFeatures = () => {
               your students.
             </p>
           </div>
-          <div className="rounded-lg lg:p-5 bg-indigo-50 lg:transition lg:duration-300 lg:hover:bg-blue-50">
+          <div className="rounded-lg lg:p-5 lg:transition lg:duration-300 lg:hover:bg-blue-50">
             <div className="flex items-center mb-1">
               <p className="text-lg font-semibold sm:text-base">
                 Easily teach online

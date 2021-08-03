@@ -4,11 +4,6 @@ const Pricing = () => {
   return (
     <div className="mx-auto">
       <div className="relative px-4 pb-10 mt-3 bg-white border-t shadow border-gray-50 border-opacity-10 sm:px-6 lg:px-0 rounded-2xl">
-        <img
-          src="/img/beams-bottom.jpg"
-          alt=""
-          className="absolute bottom-full left-1/2 transform translate-x-[-57%] mb-px w-[64.812rem] max-w-none"
-        />
         <div className="-mt-3 text-center">
           <div
             className="flex flex-col items-center space-y-12 text-sm lg:inline-grid lg:items-stretch lg:space-y-0 lg:-mb-5"
