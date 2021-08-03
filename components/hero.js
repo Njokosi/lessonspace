@@ -21,7 +21,7 @@ const Hero = () => {
           />
         </svg>
       </div>
-      <p class="text-3xl sm:text-5xl lg:text-6xl leading-none font-extrabold text-gray-900 tracking-tight mb-8">
+      <p class="text-3xl sm:text-5xl lg:text-6xl leading-none font-extrabold tracking-tight mb-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-indigo-600 to-indigo-800">
         Teach, Collaborate online easily.
       </p>
       <p class="max-w-4xl text-lg sm:text-2xl font-medium sm:leading-6 space-y-6 mb-6 text-gray-500">
@@ -29,7 +29,7 @@ const Hero = () => {
         collaborative space for online lessons.
       </p>
       <a
-        class="inline-flex text-lg sm:text-2xl font-semibold transition-colors duration-200 focus:ring-2 focus:ring-offset-2 focus:ring-current focus:outline-none rounded-md text-indigo-600 hover:text-indigo-800"
+        class="inline-flex text-lg sm:text-2xl font-semibold transition-colors duration-200 focus:ring-2 focus:ring-offset-2 focus:ring-current focus:outline-none rounded-md text-gray-800 hover:text-indigo-500"
         href="/"
       >
         Get started -&gt;

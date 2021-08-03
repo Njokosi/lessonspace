@@ -160,7 +160,7 @@ export default function Nav() {
                         title="Our product"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-indigo-400"
                       >
-                        Product
+                        Features
                       </a>
                     </li>
                     <li>
@@ -170,7 +170,7 @@ export default function Nav() {
                         title="Our product"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-indigo-400"
                       >
-                        Features
+                        Customers
                       </a>
                     </li>
                     <li>
@@ -180,7 +180,7 @@ export default function Nav() {
                         title="Product pricing"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-indigo-400"
                       >
-                        Pricing
+                        Developers
                       </a>
                     </li>
                     <li>
@@ -196,7 +196,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/"
-                        className="inline-flex items-center justify-center w-full h-10 px-6 font-medium tracking-wide text-white transition duration-200 shadow-md rounded-xl bg-gradient-to-br from-blue-400 to-indigo-600 focus:shadow-outline focus:outline-none"
+                        className="inline-flex items-center justify-center w-full h-10 px-6 font-medium tracking-wide text-white transition duration-200 shadow-md rounded-xl bg-gradient-to-br from-blue-400 to-indigo-700 focus:shadow-outline focus:outline-none"
                         aria-label="Sign up"
                         title="Sign up"
                       >
