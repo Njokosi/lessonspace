@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <section className="mb-10 sm:mb-16 md:mb-20">
-      <div class="w-12 h-12 rounded-xl mb-8 bg-gradient-to-br flex items-center justify-center from-blue-400 to-indigo-600">
+      <div className="flex items-center justify-center w-12 h-12 mb-8 rounded-xl bg-gradient-to-br from-blue-400 to-indigo-600">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="w-8 h-8 text-white"
@@ -21,15 +21,15 @@ const Hero = () => {
           />
         </svg>
       </div>
-      <p class="text-3xl sm:text-5xl lg:text-6xl leading-none font-extrabold tracking-tight mb-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-indigo-600 to-indigo-800">
+      <p className="mb-8 text-3xl font-extrabold leading-none tracking-tight text-transparent sm:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-blue-500 via-indigo-600 to-indigo-800">
         Teach, Collaborate online easily.
       </p>
-      <p class="max-w-4xl text-lg sm:text-2xl font-medium sm:leading-6 space-y-6 mb-6 text-gray-500">
+      <p className="max-w-4xl mb-6 space-y-6 text-lg font-medium text-gray-500 sm:text-2xl sm:leading-6">
         Teach live, one-on-one, or with a group, using the most versatile
         collaborative space for online lessons.
       </p>
       <a
-        class="inline-flex text-lg sm:text-2xl font-semibold transition-colors duration-200 focus:ring-2 focus:ring-offset-2 focus:ring-current focus:outline-none rounded-md text-gray-800 hover:text-indigo-500"
+        className="inline-flex text-lg font-semibold text-gray-800 transition-colors duration-200 rounded-md sm:text-2xl focus:ring-2 focus:ring-offset-2 focus:ring-current focus:outline-none hover:text-indigo-500"
         href="/"
       >
         Get started -&gt;

@@ -6,7 +6,7 @@ export default function Footer() {
       className="relative mt-1"
       style={{
         backgroundImage:
-          "radial-gradient(circle at 51% 111%,#818CF8,#312E81 86%)",
+          "radial-gradient(circle at 51% 111%,#6366F1,#312E81 86%)",
       }}
     >
       <div className="px-4 pt-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
