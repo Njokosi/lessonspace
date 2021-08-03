@@ -40,6 +40,7 @@ const CustomerCard = ({ img, title }) => {
 
 export default function Customers() {
   return (
+    
     <div className="grid grid-cols-4 gap-4 overflow-x-auto md:grid-cols-8 lg:grid-cols-12">
       {customers.map((c) => {
         return (
