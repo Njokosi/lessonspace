@@ -175,7 +175,7 @@ const Pricing = () => {
                     First 50 GB Storage / month
                   </dd>
 
-                  <dd className="flex items-center p-4 text-left text-gray-900 bg-yellow-100 rounded-xl">
+                  <dd className="flex items-center p-4 text-left text-gray-900 bg-indigo-100 rounded-xl">
                     Ideal for individuals, tutor groups, or smaller agencies
                     just starting out.
                   </dd>
@@ -242,7 +242,7 @@ const Pricing = () => {
                     First 300 GB Storage / month
                   </dd>
 
-                  <dd className="flex items-center p-4 text-left text-gray-900 bg-yellow-100 rounded-xl">
+                  <dd className="flex items-center p-4 text-left text-gray-900 bg-indigo-100 rounded-xl">
                     Ideal for larger companies or developers needing an API.
                   </dd>
                 </div>

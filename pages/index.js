@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Pricing, Statistics } from "../components";
+import { Customers, Pricing, Statistics } from "../components";
 import { BaseLayout } from "../layouts";
 
 export default function Home() {
@@ -14,6 +14,7 @@ export default function Home() {
       <BaseLayout>
         <Pricing />
         {/* <Statistics /> */}
+        <Customers />
       </BaseLayout>
     </>
   );
