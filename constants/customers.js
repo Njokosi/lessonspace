@@ -36,4 +36,17 @@ export const customers = [
     title: "Brix Careers",
     img: "/images/customers/brix-careers.png",
   },
+  {
+    title: "Schoolr",
+    img: "/images/customers/schoolr.jpg",
+  },
+  {
+    title: "Lotus learning",
+    img: "/images/customers/lotus-learning.png",
+  },
+  {
+    title: "Tuition Zone",
+    img: "/images/customers/tuition-zone-pty-ltd.png",
+  },
 ];
+
