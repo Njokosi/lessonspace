@@ -32,4 +32,8 @@ export const customers = [
     title: "Ecole Scolaire",
     img: "/images/customers/logo_ecole_succes_scolaire.png",
   },
+  {
+    title: "Brix Careers",
+    img: "/images/customers/brix-careers.png",
+  },
 ];
