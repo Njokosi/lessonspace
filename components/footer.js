@@ -208,7 +208,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-indigo-300 border-dashed sm:flex-row">
           <p className="text-sm text-gray-100">
-            © Copyright {new Date().getFullYear()} Lessonspace, Inc.
+            © Copyright {new Date().getFullYear()} Rdesign by Njokosi Jones Kawunju.
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
             <a
